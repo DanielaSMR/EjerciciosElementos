@@ -28,7 +28,25 @@
         <form>
             <fieldset>
                 <legend>Datos economicos</legend>
-                
+                <label>Precio<input type="text" name="nombre">$</label>
+
+                <label for="selector">Impuestos</label>
+                <select name="coche" id="5" size="1">
+                    <option value="Volvo">5%</option>
+                    <option value="Toyota">10%</option>
+                    <option value="Mercedes">15%</option>
+                </select>
+
+                <p>
+                    Promocion
+                </p>
+                <input type="radio" name="promocion" value="ninguno" id="ninguno" checked="checked">
+                <label for="ninguno">Ninguno</label><br>
+                <input type="radio" name="promocion" value="transporte gratuito" id="transporte gratuito" checked="checked">
+                <label for="transporte gratuito">Transporte gratuito</label><br>
+                <input type="radio" name="promocion" value="Descuento 5%" id="Descuento 5%" checked="checked">
+                <label for="Descuento 5%">Descuento 5%</label>
+
             </fieldset>
         </form>
 </body>
